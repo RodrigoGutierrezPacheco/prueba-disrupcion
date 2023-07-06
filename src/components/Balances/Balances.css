@@ -1,0 +1,96 @@
+.container{
+	width: 90% !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card-conceptos{
+	display: flex !important;
+	justify-content: space-between !important;
+	height: 40px;
+	align-items: center;
+}
+
+.mb-custom{
+	margin-bottom: 4rem;
+}
+
+.button{
+	width: 60vw;
+}
+
+.ingresos{
+	border-right: 2px solid rgba(0, 0, 0, 0.2) !important;
+	margin-right: auto !important;
+}
+
+.gastos{
+	margin-left: auto;
+}
+
+.texto-centrado{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+.slick-arrow{
+	display: none;
+}
+
+.slick-next{
+	display: none;
+}
+
+.increased-height {
+  height: 250px!important; /* Ajusta el valor de altura según tus necesidades */
+}
+
+.mt{
+	margin-top: 3rem!important;
+}
+
+.icon-wrapper {
+  color: inherit;
+}
+
+.check{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.analiticas{
+	display: flex;
+	flex-direction: column;
+	opacity: .5;
+}
+
+
+.styled-checkbox {
+  /* Ocultar el checkbox nativo */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+	margin-right: .5rem;
+  /* Establecer el tamaño deseado para el checkbox */
+  width: 2rem;
+  height: 2rem;
+
+  /* Establecer el estilo del checkbox sin marcar */
+  border: 2px solid #ccc;
+  border-radius: 50%;
+
+  /* Establecer el estilo del checkbox marcado */
+}
+
+.styled-checkbox--green{
+	background-color: green !important;
+}
+
+.styled-checkbox:checked {
+background-color: green !important;
+}
+

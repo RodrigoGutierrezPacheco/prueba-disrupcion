@@ -1,0 +1,25 @@
+.month {
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: font-size 0.3s;
+}
+
+.month.active {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.bc{
+	background-color: #4a65a3;
+}
+
+.slider{
+	height: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
